@@ -1,0 +1,44 @@
+- name: Home
+  url: /
+- name: Supporters
+  url: /supporters.html
+- name: Call for Papers
+  url: /cfp.html
+- name: Calls
+  submenu:
+    # - name: Call for Papers
+    #   url: /cfp.html
+    - name: Submission Details
+      url: /submission.html
+    - name: Camera-ready instructions
+      url: /camera-ready.html
+    - name: Call for Supporters
+      url: /cf-supporters.html
+- name: Local Information
+  submenu:
+   - name: Venue &amp; Social Events
+     url: /venue.html
+   - name: Accommodations
+     url: /accommodations.html
+   # - name: City &amp; Travel Tips
+   #   url: /city.html
+- name: Program Committee
+  url: /tpc.html
+- name: Organizing Committee
+  url: /org-committee.html
+- name: Anti-Harassment Policy
+  url: /policy-anti-harassment.html
+- name: Previous Editions
+  submenu:
+    - name: ACM ICN 2019
+      url: https://conferences.sigcomm.org/acm-icn/2019/
+    - name: ACM ICN 2018
+      url: https://conferences.sigcomm.org/acm-icn/2018/
+    - name: ACM ICN 2017
+      url: https://conferences.sigcomm.org/acm-icn/2017/
+    - name: ACM ICN 2016
+      url: https://conferences.sigcomm.org/acm-icn/2016/
+    - name: ACM ICN 2015
+      url: https://conferences.sigcomm.org/acm-icn/2015/
+    - name: ACM ICN 2014
+      url: https://conferences.sigcomm.org/acm-icn/2014/

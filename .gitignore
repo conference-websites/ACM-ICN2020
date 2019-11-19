@@ -1,0 +1,8 @@
+*~
+*.sublime*
+Gemfile.lock
+_site
+.sass-cache
+client_secret.json
+*.pyc
+.jekyll-cache

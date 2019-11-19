@@ -1,0 +1,47 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+highlighter: rouge
+markdown: kramdown
+exclude: ['.git', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md', '.asset-cache']
+encoding: UTF-8
+
+plugins:
+  - jekyll-assets
+
+url: http://conferences.sigcomm.org
+baseurl: /acm-icn/2020
+
+# Configuration for site
+title: ACM ICN 2020
+logo:
+  image: icn20-temp-logo-large.png
+  info: ACM ICN 2020, Montreal, Canada
+
+# ACM ICN'2020 tracking
+google_analytics_id: UA-83529610-4
+
+# program:
+#   # If the specified file doesn't exist, there will be command-line dialog to create it
+#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+#   google_client_id: .travis.d/google_client_id.json
+#   # Google spreadsheet with the conference data
+#   spreadsheet: 
+
+assets:
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+
+  plugins:
+    css: 
+      autoprefixer:
+        browsers:
+          - "last 2 versions"
+          - "IE > 9"
+
+    img: { optim: {}}

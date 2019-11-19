@@ -1,0 +1,21 @@
+language: ruby
+sudo: false
+rvm:
+  - 2.5
+branches:
+  only:
+    - master
+addons:
+  apt:
+    packages:
+    - lftp
+# env:
+#   global:
+script:
+  - gem install bundler
+  - bundle exec jekyll build
+# after_success:
+#   - echo set ftp:ssl-force on > ~/.lftprc
+#   - echo set ftp:ssl-protect-data on >> ~/.lftprc
+#   - echo set ssl:verify-certificate no >> ~/.lftprc
+#   - lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"
