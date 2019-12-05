@@ -16,7 +16,7 @@ baseurl: /acm-icn/2020
 # Configuration for site
 title: ACM ICN 2020
 logo:
-  image: icn20-temp-logo-large.png
+  image: icn20-logo.png
   info: ACM ICN 2020, Montreal, Canada
 
 # ACM ICN'2020 tracking

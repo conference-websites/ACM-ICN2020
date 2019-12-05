@@ -14,8 +14,8 @@ $site-headings-font-weight:    500 !default;
 
 @import "icn20";
 
-$brand-primary:         #BF4918 !default;
-$brand-success:         #BF4918 !default;
+$brand-primary:         #000588 !default;
+$brand-success:         #000588 !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
@@ -30,9 +30,9 @@ $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 // Customize colors  if needed
 
 $site-colors-hfont: #ffffff;
-$site-colors-highlight: #BF4918;
-$site-colors-highlight-darker: #BF4918;
-$site-colors-highlightB: #DD9710;
+$site-colors-highlight: #D40004;
+$site-colors-highlight-darker: #D40004;
+$site-colors-highlightB: #000588;
 
 $site-colors-break-background: #d1d1d1;
 $site-colors-session-background: #0063A9;
