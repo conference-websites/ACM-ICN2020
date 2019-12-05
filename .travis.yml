@@ -1,7 +1,6 @@
-language: ruby
-sudo: false
-rvm:
-  - 2.5
+language: minimal
+services:
+  - docker
 branches:
   only:
     - master
@@ -9,13 +8,12 @@ addons:
   apt:
     packages:
     - lftp
-# env:
-#   global:
 script:
-  - gem install bundler
-  - bundle exec jekyll build
+  - docker pull conferences/acm-icn-2020-builder:v1
+  - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v1 bundler exec jekyll build
 after_success:
   - echo set ftp:ssl-force on > ~/.lftprc
-  - echo set ftp:ssl-protect-data on >> ~/.lftprc
+  - echo set ftp:ssl-protect-data yes >> ~/.lftprc
   - echo set ssl:verify-certificate no >> ~/.lftprc
+  - echo set ftp:passive-mode yes >> ~/.lftprc
   - lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"

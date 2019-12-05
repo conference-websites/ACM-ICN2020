@@ -17,4 +17,7 @@ group :jekyll_plugins do
   gem 'font-awesome-sass', '~> 5.11', '>= 5.11.2'
 
   gem 'google_drive', '~> 3.0', '>= 3.0.3'
+
+  gem 'execjs'
+  gem 'mini_racer'
 end
