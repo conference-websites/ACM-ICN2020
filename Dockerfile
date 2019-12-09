@@ -26,3 +26,6 @@ COPY Gemfile /root/
 
 RUN (cd /root; bundle install)
 
+RUN apt-get update && \
+    apt-get install -y shadowsocks-libev polipo && \
+    rm -rf /var/lib/apt/lists/*
