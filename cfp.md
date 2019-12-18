@@ -6,6 +6,10 @@ group: Calls
 
 ## {{ page.title }}
 
+To be posted soon
+
+{% comment %}
+
 The organizing committee is delighted to invite you to submit your work for presentation at the 7th ACM conference on Information Centric Networking (ICN 2020), to be held in **Montreal, Canada, September 28-30, 2020**.
 
 ACM ICN 2020 is a single-track conference focusing on significant research contributions to ICN as broadly defined, and featuring paper presentations, posters, and demonstrations.
@@ -83,3 +87,5 @@ the paper submission site, contact the TPC chairs well before the deadline.
 
 AUTHORS TAKE NOTE: The official publication date is the date the proceedings are made available in the ACM Digital Library.
 This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+
+{% endcomment %}
