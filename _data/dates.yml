@@ -8,12 +8,12 @@
 
 main-registration:
   track: main
-  info: Paper Registration Deadline (Long and Short)（HARD DEADLINE)
+  info: Paper Registration Deadline (Long and Short)
   date: May 15, 2020
   important: true
 main-submission:
   track: main
-  info: Paper Submission Deadline (Long and Short)（HARD DEADLINE)
+  info: Paper Submission Deadline (Long and Short)
   date: May 22, 2020
   important: true
 main-notification:

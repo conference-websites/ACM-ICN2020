@@ -20,4 +20,7 @@ group :jekyll_plugins do
 
   gem 'execjs'
   gem 'mini_racer'
+
+  gem 'jekyll-sitemap', '~> 1.4'
+  gem 'jekyll-last-modified-at', '~> 1.2', '>= 1.2.1'
 end

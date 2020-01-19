@@ -9,6 +9,8 @@ encoding: utf-8
 
 plugins:
   - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 url: http://conferences.sigcomm.org
 baseurl: /acm-icn/2020

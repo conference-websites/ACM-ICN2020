@@ -4,21 +4,11 @@ services:
 branches:
   only:
     - master
-addons:
-  apt:
-    packages:
-    - lftp
 script:
-  - docker pull conferences/acm-icn-2020-builder:v2
-  - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v2 bundler exec jekyll build
+  - docker pull conferences/acm-icn-2020-builder:v3
+  - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v3 bundler exec jekyll build
 after_success:
   - docker network create --driver bridge vpn
-  - docker run --name ss-local --net=vpn -d --rm conferences/acm-icn-2020-builder:v2 ss-local -s "$PROXY" -p 35768 -k "$PROXY_PASS" -b 0.0.0.0 -l 1080 -m chacha20-ietf-poly1305 -u
-  - docker run --name polipo --net=vpn -p 8123:8123 -d --rm conferences/acm-icn-2020-builder:v2 polipo proxyAddress=0.0.0.0 socksParentProxy=ss-local:1080
+  - docker run --name ss-local --net=vpn -d --rm conferences/acm-icn-2020-builder:v3 ss-local -s "$PROXY" -p 35768 -k "$PROXY_PASS" -b 0.0.0.0 -l 1080 -m chacha20-ietf-poly1305 -u
   - sleep 2
-  - echo set ftp:ssl-force on > ~/.lftprc
-  - echo set ftp:ssl-protect-data yes >> ~/.lftprc
-  - echo set ssl:verify-certificate no >> ~/.lftprc
-  - echo set ftp:passive-mode yes >> ~/.lftprc
-  - echo set ftp:proxy http://localhost:8123 >> ~/.lftprc
-  - lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"
+  - docker run --name lftp --net=vpn --rm -ti -e TSOCKS_CONF_FILE=/root/.tsocks.conf -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v3 tsocks lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"
