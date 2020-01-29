@@ -6,9 +6,10 @@ branches:
     - master
 script:
   - docker pull conferences/acm-icn-2020-builder:v3
-  - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v3 bundler exec jekyll build
-after_success:
-  - docker network create --driver bridge vpn
-  - docker run --name ss-local --net=vpn -d --rm conferences/acm-icn-2020-builder:v3 ss-local -s "$PROXY" -p 35768 -k "$PROXY_PASS" -b 0.0.0.0 -l 1080 -m chacha20-ietf-poly1305 -u
-  - sleep 2
-  - docker run --name lftp --net=vpn --rm -ti -e TSOCKS_CONF_FILE=/root/.tsocks.conf -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v3 tsocks lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"
+  - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v4 bundler exec jekyll build
+# Travis doesn't support FTP depoyment anymore... and still need to figure out a way out of this
+# after_success:
+    #   - docker network create --driver bridge vpn
+    #   - docker run --name ss-local --net=vpn -d --rm conferences/acm-icn-2020-builder:v3 ss-local -s "$PROXY" -p 35768 -k "$PROXY_PASS" -b 0.0.0.0 -l 1080 -m chacha20-ietf-poly1305 -u
+    #   - sleep 2
+    #   - docker run --name lftp --net=vpn --rm -ti -e TSOCKS_CONF_FILE=/root/.tsocks.conf -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v3 tsocks lftp -u $CREDENTIALS $TARGET -e "mirror --exclude proceedings/ --delete --delete-first --verbose -R _site/ .; bye"
