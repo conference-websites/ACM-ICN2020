@@ -7,6 +7,9 @@ branches:
 script:
   - docker pull conferences/acm-icn-2020-builder:v3
   - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v4 bundler exec jekyll build
+  # for local testing, use
+  # docker run --rm -v "`pwd`:/build" -w /build -p 4000:4000 conferences/acm-icn-2020-builder:v4 bundler exec jekyll serve --host=0.0.0.0
+
 # Travis doesn't support FTP depoyment anymore... and still need to figure out a way out of this
 # after_success:
     #   - docker network create --driver bridge vpn
