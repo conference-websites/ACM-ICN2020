@@ -5,7 +5,7 @@ branches:
   only:
     - master
 script:
-  - docker pull conferences/acm-icn-2020-builder:v3
+  - docker pull conferences/acm-icn-2020-builder:v4
   - docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v4 bundler exec jekyll build
   # for local testing, use
   # docker run --rm -v "`pwd`:/build" -w /build -p 4000:4000 conferences/acm-icn-2020-builder:v4 bundler exec jekyll serve --host=0.0.0.0
