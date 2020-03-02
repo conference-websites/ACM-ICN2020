@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACM ICN 2020 Workshop on Information-Centric Economic, Societal and Governance
+title: ACM ICN 2020 Information-Centric Economic, Societal and Governance Workshop
 short: ICE-SoGo 2020
 group: Workshops
 
@@ -8,7 +8,7 @@ dates:
     - info: Paper submission deadline
       date: June 15,  2020
     - info: Paper acceptance notification
-      date: August 15, 2020
+      date: August 7, 2020
 
 committees:
     - role: Workshop Co-Chairs
@@ -23,10 +23,34 @@ committees:
          homepage:    https://icastro.info/
          email:       i.castro@qmul.ac.uk
 
----
-{%  comment %}
     - role: Technical Program Committee
       people:
+       - name:        Yehia Elkhatib
+         affiliation: Lancaster University
+       - name:        Ruben Cuevas
+         affiliation: UC3M
+       - name:        Ian Brown
+         affiliation: Research ICT Africa
+       - name:        Dirk Kutscher
+         affiliation: Emden University
+       - name:        Andreas Mauthe
+         affiliation: University of Koblenz and Landau
+       - name:        Tuan Minh Pham
+         affiliation: Phenikaa University
+       - name:        Emanuele Giovannetti
+         affiliation: Anglia Ruskin University
+       - name:        Colin Perkins
+         affiliation: Glasgow University
+       - name:        Volker Stocker
+         affiliation: TU Berlin
+       - name:        Zoraida Frias
+         affiliation: Universidad Politécnica de Madrid
+       - name:        Niels ten Oever
+         affiliation: University of Amsterdam
+
+---
+{%  comment %}
+
 
 <!-- ### Workshop Program -->
 
@@ -57,6 +81,7 @@ Due to the nature of the topic, we would particularly welcome cross-disciplinary
 
 We invite the submission of papers up to **six pages** in length (ACM SIGCOMM format), describing original research with both theoretical and applied contributions.
 We also welcome position papers that explore the area more conceptually.
+Note that we also welcome shorter paper submissions (below 6 pages) where appropriate and well justified.
 
 #### Topics of Interest
 
@@ -100,9 +125,8 @@ Papers must include authors names and affiliations for single-blind peer reviewi
 Authors of accepted papers are expected to present their papers at the workshop.
 
 Link for the submissions will be posted soon.
-{% comment %}
-Please submit your paper via 
-{% endcomment %}
+Please submit your paper via [https://ice-sogo20.hotcrp.com/](https://ice-sogo20.hotcrp.com/).
+
 
 ### Important Dates
 
