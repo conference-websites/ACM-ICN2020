@@ -6,12 +6,12 @@
   url: /cfp.html
 - name: Calls
   submenu:
-    # - name: Call for Papers
-    #   url: /cfp.html
-    - name: Submission Details
-      url: /submission.html
-    - name: Camera-ready instructions
-      url: /camera-ready.html
+    - name: Call for Papers
+      url: /cfp.html
+    # - name: Submission Details
+    #   url: /submission.html
+    # - name: Camera-ready instructions
+    #   url: /camera-ready.html
     - name: Call for Supporters
       url: /cf-supporters.html
 - name: Workshops
