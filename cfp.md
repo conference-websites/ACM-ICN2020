@@ -38,7 +38,7 @@ Topics of interest include, but are not limited to:
 
 ## Submission Details
 
-The conference solicits both full and short papers. Submissions will be reviewed through a double-blind process, and evaluated on the basis of intellectual merit, originality, importance of contribution to the field, soundness and strength of evaluation (for full papers), quality and clarity of presentation, and appropriate comparison to related work.
+The conference solicits both full and short papers. Submissions will be reviewed through a **double-blind** process, and evaluated on the basis of intellectual merit, originality, importance of contribution to the field, soundness and strength of evaluation (for full papers), quality and clarity of presentation, and appropriate comparison to related work.
 
 Full papers may be up to 10 pages in length, excluding references, following the [ACM SIGCOMM format](https://github.com/conference-websites/acmart-sigproc-template/) (10pt font, `sigconf` option for `acmart` style), and should convey the results of mature research. Short papers may be up to 6 pages in length, excluding references.
 
@@ -60,7 +60,7 @@ Like other conferences and journals, ICN prohibits violation of the above ACM Po
 
 ICN will review extended versions of previously-published short preliminary papers (such as workshop papers) in accordance with published [ACM SIGCOMM](http://www.sigcomm.org/about/policies/frequently-asked-questions-faq/) policies. Papers accompanied by nondisclosure agreement requests will not be considered.
 
-Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a single-blind reviewing process.  As the review process is double blind, authors must NOT include their names or affiliations in the paper, as well as avoid any identification information in the submission.
+Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a **double-blind** reviewing process. Authors must **NOT** include their names or affiliations in the paper, as well as avoid any identification information in the submission.
 
 ## Conflicts of interest
 
