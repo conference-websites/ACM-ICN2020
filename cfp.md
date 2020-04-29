@@ -60,7 +60,7 @@ Like other conferences and journals, ICN prohibits violation of the above ACM Po
 
 ICN will review extended versions of previously-published short preliminary papers (such as workshop papers) in accordance with published [ACM SIGCOMM](http://www.sigcomm.org/about/policies/frequently-asked-questions-faq/) policies. Papers accompanied by nondisclosure agreement requests will not be considered.
 
-Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a single-blind reviewing process. Authors must identify themselves by name and affiliation in the title of the paper.
+Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a single-blind reviewing process.  As the review process is double blind, authors must NOT include their names or affiliations in the paper, as well as avoid any identification information in the submission.
 
 ## Conflicts of interest
 

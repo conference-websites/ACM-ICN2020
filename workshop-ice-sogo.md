@@ -136,6 +136,8 @@ Please submit your paper via [https://ice-sogo20.hotcrp.com/](https://ice-sogo20
 
 **The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to *TWO WEEKS* prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work.**
 
+Due to uncertainty about international travel in the Fall of 2020, the Conference will offer a remote attendance/presentation opportunity.  Details are still being worked out, but further information will be made available as soon as possible.
+
 ### Committees
 
 {% include committees.html committees=page.committees %}
