@@ -60,9 +60,28 @@ Like other conferences and journals, ICN prohibits violation of the above ACM Po
 
 ICN will review extended versions of previously-published short preliminary papers (such as workshop papers) in accordance with published [ACM SIGCOMM](http://www.sigcomm.org/about/policies/frequently-asked-questions-faq/) policies. Papers accompanied by nondisclosure agreement requests will not be considered.
 
-Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a **double-blind** reviewing process. Authors must **NOT** include their names or affiliations in the paper, as well as avoid any identification information in the submission.
+<!-- Papers must be written in English. All submitted papers will be judged based on their quality and relevance through a **double-blind** reviewing process. Authors must **NOT** include their names or affiliations in the paper, as well as avoid any identification information in the submission. -->
 
-## Conflicts of interest
+### Paper Anonymity
+
+All submitted papers will be judged based on their quality and relevance through **double-blind** reviewing, where the identities of the authors are withheld from the reviewers.
+As an author, you are required to make a good-faith effort to preserve the anonymity of your submission, while at the same time allowing the reader to fully grasp the context of related past work, including your own.
+Common sense and careful writing will go a long way towards preserving anonymity.
+Minimally, please take the following steps when preparing your submission:
+
+1. Remove the names and affiliations of authors from the title page.
+
+2. Remove acknowledgment of identifying names and funding sources.
+
+3. Use care in naming your files. Source file names (e.g., “Alice-n-Bob.dvi”) are often embedded in the final output as readily accessible comments.
+
+4. Check the "Properties" (metadata) embedded in the file, and remove any identifying information before submitting.
+
+5. Use care in referring to related work, particularly your own.  Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context.  Instead, reference your past work in the third person, just as you would any other piece of related work by another author.
+
+6. Work that extends an author's previous workshop paper is welcome, but the paper should (a) acknowledge their own previous workshop publications with an anonymous citation and (b) carefully explain the differences between the ACM ICN'20 submission and the prior workshop paper.
+
+### Conflicts of interest
 
 Both authors and TPC members must identify conflicts of interest according to the following general principles.
 
