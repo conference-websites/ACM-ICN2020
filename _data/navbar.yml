@@ -18,12 +18,12 @@
   submenu:
     - name: ICE-SoGo
       url: /workshop-ice-sogo.html
-- name: Local Information
-  submenu:
-   - name: Venue &amp; Social Events
-     url: /venue.html
-   - name: Accommodations
-     url: /accommodations.html
+# - name: Local Information
+#   submenu:
+- name: Venue &amp; Associated Events
+  url: /venue.html
+   # - name: Accommodations
+   #   url: /accommodations.html
    # - name: City &amp; Travel Tips
    #   url: /city.html
 - name: Program Committee
