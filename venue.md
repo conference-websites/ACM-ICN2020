@@ -9,7 +9,7 @@ group: Local Information
 * TOC
 {:toc}
 
-{{ site.title }} <del>takes place in Montreal, Canada, September 28-30, 2020.</del> will be held in the fully virtual format.
+{{ site.title }} will be held in the fully virtual format.
 
 <div style="clear: both"></div>
 

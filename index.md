@@ -3,12 +3,12 @@ layout: default
 title: ACM ICN 2020
 og_tags:
   - property: og:description
-    content: The organizing committee is delighted to invite you to ACM ICN 2020, to be held in Montreal, Canada, September 28-30, 2020.
+    content: The organizing committee is delighted to invite you to ACM ICN 2020.
 ---
 
 ## Welcome to ACM ICN 2020
 
-The organizing committee is delighted to invite you to submit your work for presentation at the 7th ACM conference on Information Centric Networking (ICN 2020)<del>, to be held in **Montreal, Canada, September 28-30, 2020**</del>.
+The organizing committee is delighted to invite you to submit your work for presentation at the 7th ACM conference on Information Centric Networking (ICN 2020).
 <span style="color: red">Considering challenges we face due to COVID-19 pandemic, the conference will be held in the virtual format.</span>
 Additional details will be posted as soon as possible.
 
