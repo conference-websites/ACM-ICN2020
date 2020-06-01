@@ -38,6 +38,7 @@ assets:
     - _assets/fonts
     - _assets/js
     - _assets/bower
+    - _assets/misc
 
   plugins:
     css: 

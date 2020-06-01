@@ -8,6 +8,8 @@
   submenu:
     - name: Call for Papers
       url: /cfp.html
+    - name: Call for Tutorials
+      url: /cf-tutorials.html
     # - name: Submission Details
     #   url: /submission.html
     # - name: Camera-ready instructions
@@ -18,6 +20,10 @@
   submenu:
     - name: ICE-SoGo
       url: /workshop-ice-sogo.html
+- name: Tutorials
+  submenu:
+    - name: Call for Tutorials
+      url: /cf-tutorials.html
 # - name: Local Information
 #   submenu:
 - name: Venue &amp; Associated Events
