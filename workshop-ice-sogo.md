@@ -6,7 +6,7 @@ group: Workshops
 
 dates:
     - info: Paper submission deadline
-      date: June 15,  2020
+      date: '<del>June 15,  2020</del> <span style="color: red">EXTENDED: July 6, 2020</span>'
     - info: Paper acceptance notification
       date: August 7, 2020
 
