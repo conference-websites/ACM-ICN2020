@@ -51,18 +51,18 @@ workshops-papers-due:
   info: Workshop Call for Papers due
   date: TBD
 
-# posters-submission:
-#   track: posters
-#   info: Submissions deadline
-#   date: TBD
-# posters-notification:
-#   track: posters
-#   info: Acceptance Notification
-#   date: TBD
-# posters-due:
-#   track: posters
-#   info: Camera Ready Due
-#   date: TBD
+posters-submission:
+  track: posters
+  info: Submissions deadline
+  date: August 8, 2020, 12am EDT
+posters-notification:
+  track: posters
+  info: Acceptance Notification
+  date: August 15, 2020, 12am EDT
+posters-due:
+  track: posters
+  info: Camera Ready Due
+  date: August 25, 2020, 12am EDT
 
 # travel-submission:
 #   track: travel

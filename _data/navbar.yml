@@ -6,10 +6,12 @@
   url: /cfp.html
 - name: Calls
   submenu:
-    - name: Call for Papers
+    - name: "<del>Call for Papers</del>"
       url: /cfp.html
     - name: Call for Tutorials
       url: /cf-tutorials.html
+    - name: Call for Posters/Demos
+      url: /cf-posters.html
     # - name: Submission Details
     #   url: /submission.html
     # - name: Camera-ready instructions
