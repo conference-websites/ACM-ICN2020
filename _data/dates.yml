@@ -30,12 +30,12 @@ main-due:
 tutorials-proposals:
   track: tutorials
   info: Proposals deadline
-  date: June 15, 2020
+  date: "<del>June 15, 2020</del> June 29, 2020"
   important: true
 tutorials-notification:
   track: tutorials
   info: Notification of Acceptance
-  date: June 22, 2020
+  date: "<del>June 22, 2020</del> July 6, 2020"
 
 workshops-proposals:
   track: workshops
