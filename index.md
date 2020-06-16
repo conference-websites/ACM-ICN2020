@@ -9,7 +9,7 @@ og_tags:
 ## Welcome to ACM ICN 2020
 
 The organizing committee is delighted to invite you to submit your work for presentation at the 7th ACM conference on Information Centric Networking (ICN 2020).
-<span style="color: red">Considering challenges we face due to COVID-19 pandemic, the conference will be held in the virtual format.</span>
+<span style="color: red">Considering challenges we face due to COVID-19 pandemic, the conference will be held in the virtual format on September 29, 2020 - October 1, 2020.</span>
 Additional details will be posted as soon as possible.
 
 ACM ICN 2020 is a single-track conference focusing on significant research contributions to ICN as broadly defined, and featuring paper presentations, posters, and demonstrations.

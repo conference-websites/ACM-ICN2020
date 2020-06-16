@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Call for Supporters
+group: Calls
+
 ---
 
 ## Call for Supporters

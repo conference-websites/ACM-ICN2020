@@ -9,7 +9,7 @@ group: Local Information
 * TOC
 {:toc}
 
-{{ site.title }} will be held in the fully virtual format.
+{{ site.title }} will be held in the fully virtual format on September 29, 2020 - October 1, 2020.
 
 <div style="clear: both"></div>
 
