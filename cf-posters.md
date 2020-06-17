@@ -48,14 +48,13 @@ Feel free to add a link to a preliminary version of your video.
 
 ### Preparation of Abstracts
 
-Submissions will be reviewed through a **double-blind** process and must adhere to anonymity and conflict of interest policies [the same as for the main conference papers](cfp.html).
+Submissions will be reviewed through a **single-blind** process and must adhere conflict of interest policies [the same as for the main conference papers](cfp.html) (note that unlikes the main track submissions, the poster/demo submissions do not need to be anonymized).
 Abstracts may be up to **two pages** in length, excluding references, following the [ACM SIGCOMM format](https://github.com/conference-websites/acmart-sigproc-template/) (10pt font, `sigconf` option for `acmart` style).
 The abstracts of accepted posters and demos will be available to all attendees at the conference.
 
 ### Where to Submit
 
 Abstracts for posters and demos should be submitted via the [ICN 2020 Posters and Demos submission website](https://icn20posterdemo.hotcrp.com/).
-Submissions will be reviewed through a double-blind process, so please DO NOT include authors' names and affiliations.
 
 ### Important dates
 
