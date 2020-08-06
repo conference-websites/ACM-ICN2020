@@ -54,15 +54,15 @@ workshops-papers-due:
 posters-submission:
   track: posters
   info: Submissions deadline
-  date: August 8, 2020, 11:59pm EDT
+  date: <del>August 8, 2020</del> August 15, 11:59pm EDT
 posters-notification:
   track: posters
   info: Acceptance Notification
-  date: August 15, 2020
+  date: <del>August 15</del> August 22, 2020
 posters-due:
   track: posters
   info: Camera Ready Due
-  date: August 25, 2020, 11:59pm EDT
+  date: <del>August 25, 2020</del> September 1, 11:59pm EDT
 
 # travel-submission:
 #   track: travel
