@@ -8,7 +8,7 @@ group: Calls
 
 **September 1st, 2020 is camera-ready due** for all accepted papers (full, short, poster, and demo).
 
-Before submitting camera-ready papers, authors of accepted papers will need to complete the rights management form. You will be notified once these forms are available and ready to sign.
+Before submitting camera-ready papers, authors of accepted papers will need to complete the rights management form. You will be notified once these forms are available and ready to sign. You must agree to videotaping in the forms for the conference to use your pre-recorded talk.
 
 After completing their rights management form, authors will be emailed the correct rights management text and bibliographic strip to place within their paper. **It is essential that authors enter the text into their paper.**
 
