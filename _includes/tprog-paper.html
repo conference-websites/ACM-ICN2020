@@ -1,10 +1,12 @@
+{% if abstract_label == nil %}{% assign abstract_label = 'Abstract' %}{% endif %}
+
 {% if paper.abstract == nil or paper.abstract == "" %}
   {% include tprog-item.html %}
 {% else %}
 
-{% if paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
-{% if paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
-{% if paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+{% if paper.link and paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+{% if paper.slides and paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if paper.video and paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
   
 {% comment %}<!-- make space for the button(s) -->{% endcomment %}
 {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
@@ -28,24 +30,24 @@
       <div class="ui-li-aside">
         {% if has_link %}
         <div class="button-paper">      
-          <a href="javascript:void(0)" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>
+          <a href="{{ paper.link }}" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>
         </div>
         {% endif %}
         {% if has_slides %}
         <div class="button-paper">      
-          <a href="{{ paper.slides }}" rel="external" target="_blank" class="ui-link">Slides</a>
+          <a href="{{ paper.slides }}" onclick="window.location='{{ paper.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
         </div>
         {% endif %}
         {% if has_video %}
         <div class="button-paper">      
-          <a href="{{ paper.video }}" rel="external" target="_blank" class="ui-link">Video</a>
+          <a href="{{ paper.video }}" onclick="window.location='{{ paper.video }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Video</a>
         </div>
         {% endif %}
       </div>
     </h4>
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
-        <p><b>Abstract: </b>{{ paper.abstract }}</p>
+        <p><b>{{ abstract_label }}: </b>{{ paper.abstract }}</p>
         <p>&nbsp;</p>
       </li>
     </ul>

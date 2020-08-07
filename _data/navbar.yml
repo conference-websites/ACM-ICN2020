@@ -8,7 +8,7 @@
   submenu:
     - name: "<del>Call for Papers</del>"
       url: /cfp.html
-    - name: Call for Tutorials
+    - name: "<del>Call for Tutorials</del>"
       url: /cf-tutorials.html
     - name: Call for Posters/Demos
       url: /cf-posters.html
@@ -24,8 +24,13 @@
       url: /workshop-ice-sogo.html
 - name: Tutorials
   submenu:
-    - name: Call for Tutorials
-      url: /cf-tutorials.html
+    - name: Online Learning for Data Caching and Network Service Delivery
+      url: /tutorial-online-learning.html
+    - name: Practical NDN
+      url: /tutorial-ndn.html
+    - name: Fed4FIRE
+      url: /tutorial-fed4fire.html
+    
 # - name: Local Information
 #   submenu:
 - name: Venue &amp; Associated Events

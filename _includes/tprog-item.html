@@ -1,7 +1,6 @@
-{% if paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
-{% if paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
-{% if paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
-{% if paper.room  != "" %}{% assign has_room  = true %}{% else %}{% assign has_room  = nil %}{% endif %}
+{% if paper.link   and paper.link != ""  %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+{% if paper.slides and paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if paper.video  and paper.video != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
   
 {% comment %}<!-- make space for the button(s) -->{% endcomment %}
 {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
@@ -19,9 +18,6 @@
     </p>
     <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
     <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
-    {% if has_room %}
-    <p>Room: {{ paper.room }} </p>
-    {% endif %}  
   </div>
   <div class="ui-li-aside-item">
       {% if has_link %}
