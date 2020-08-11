@@ -2,7 +2,7 @@
   <ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
     {% for person in include.presenters %}     
       <li data-icon="false" class="prog-item">
-        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="{% if expand %}false{% else %}true{% endif %}" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
           <h4>
             <div {{ item_style }}>
               <p class="paper-header">
@@ -18,7 +18,7 @@
           <ul data-role="listview" data-inset="false">
             <li data-icon="false">
               <p>
-                {% if person.photo %}<img class="keynote-photo" src="{{ person.photo }}"/>{% endif %}
+                {% if person.photo %}{% asset "{{ person.photo }}" magick:resize="120x" class="keynote-photo" %}{% endif %}
                 {{ person.bio }}
               </p>
               <p>&nbsp;</p>

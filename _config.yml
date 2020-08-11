@@ -41,10 +41,10 @@ assets:
     - _assets/misc
 
   plugins:
-    css: 
+    css:
       autoprefixer:
         browsers:
           - "last 2 versions"
           - "IE > 9"
 
-    img: { optim: {}}
+    img: { optim: {}, magick: {} }

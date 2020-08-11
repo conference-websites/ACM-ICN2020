@@ -18,8 +18,9 @@ group :jekyll_plugins do
 
   gem 'google_drive', '~> 3.0', '>= 3.0.3'
 
-  gem 'execjs'
-  gem 'mini_racer'
+  gem 'execjs', '~> 2.7'
+  gem 'mini_racer', '~> 0.3.1'
+  gem 'kramdown-parser-gfm', '~> 1.1'
 
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-last-modified-at', '~> 1.2', '>= 1.2.1'

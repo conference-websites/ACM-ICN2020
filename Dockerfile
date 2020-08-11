@@ -1,12 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && \
-    apt-get install -y ruby bundler zlib1g-dev && \
-    rm -rf /var/lib/apt/lists/*
-
-# Install program to configure locales
-RUN apt-get update && \
-    apt-get install -y locales && \
+    apt-get install -y ruby bundler zlib1g-dev locales imagemagick && \
     rm -rf /var/lib/apt/lists/*
 
 RUN dpkg-reconfigure locales && \
