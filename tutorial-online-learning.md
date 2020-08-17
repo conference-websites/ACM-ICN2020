@@ -36,12 +36,7 @@ presenters:
 
 ## {{ page.title }}
 
-### Presenters
-
-{% assign expand=true %}
-{% include presenters.html presenters=page.presenters %}
-
-### Outline
+### Introduction and Tutorial Description
 
 Storage resources and caching techniques permeate almost every facet of wired and wireless networks.
 From storage-assisted future Internet architectures and cache-enabled 5G systems, to modern analytic services that rely on memory-demanding ML/AI models, caching promises to benefit both the network operators by reducing their expenditures, and the end-users by improving the offered services. In light of the pressing data traffic growth, the increasing number of rich-media services, and the fast emergence of mobile analytic applications, the following question is inevitably raised:
@@ -50,3 +45,14 @@ From storage-assisted future Internet architectures and cache-enabled 5G systems
  
 In this tutorial we will start with a brief historical background on caching and will accordingly explain why caching is instrumental for modern network services and user applications beyond content delivery.
 We will present, in a novel and unified fashion, fundamental concepts of popularity request models and network graphs, with examples and pointers to real datasets and deployed systems. We will then shift our attention to the basic theory of online learning that has recently taken over the machine learning literature, and explain the key notions and tools that a network/communications researcher needs to know. A series of recent results that apply online learning in wireless edge caching/routing and device-to-device caching will be presented, showing evidence that this powerful analytical tool can address shortcomings of previous optimization approaches. Accordingly, we will discuss online learning techniques for deploying other network services (single-stage or chained functions), placing emphasis on minimizing their costs and reconfiguration delays in dynamic environments with unknown and unpredictable requests. This tutorial will conclude with a series of open questions at the nexus of online learning and deployment of network services and caching.
+
+### Presenters
+
+{% assign expand=true %}
+{% include presenters.html presenters=page.presenters %}
+
+### Preliminary Tutorial Program (3 Hours)
+
+{% assign abstractTitle="" %}
+{% assign expanded=true %}
+{% include program-online.html type="tutorial-online" %}
