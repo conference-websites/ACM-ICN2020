@@ -19,7 +19,7 @@ main-submission:
 main-notification:
   track: main
   info: Acceptance Notification
-  date: August 1, 2020
+  date: <del>August 1, 2020</del>
   important: true
 main-due:
   track: main

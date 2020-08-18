@@ -4,7 +4,7 @@ destination: ./_site
 plugins_dir: ./_plugins
 highlighter: rouge
 markdown: kramdown
-exclude: ['.git', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md', '.asset-cache', 'Dockerfile']
+exclude: ['.git', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md', '.asset-cache', 'Dockerfile', '_scripts']
 encoding: utf-8
 
 plugins:
