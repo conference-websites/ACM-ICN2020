@@ -64,7 +64,6 @@ You want to support ACM ICN 2020? Check our <a href="cf-supporters.html">Call fo
 </p>
 
 
-{% comment %}
 ## University Supporters
 
 <p>
@@ -76,4 +75,3 @@ You want to support ACM ICN 2020? Check our <a href="cf-supporters.html">Call fo
 %}{% endfor %}
 </div>
 </p>
-{% endcomment %}
