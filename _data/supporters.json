@@ -1,2 +1,4 @@
 [
+    [300, "cisco.png", "http://www.cisco.com/", "cisco", 0, 264, 500, "gold"],
+    [200, "intel.png", "http://www.intel.com/", "intel", 0, 198, 300, "silver"],
 ]

@@ -83,7 +83,7 @@ function onfinish() {
         
         $(mylogo_a).fadeOut(500, function() {
             sps[c][4] = 0;
-            $(mylogo_a).attr("src", "images/sponsors/" + sps[b][1]);
+            $(mylogo_a).attr("src", sps[b][1]);
             $(mylogo_a).attr("alt", b);
             $(mylink_a).attr("href", sps[b][2]);
             var d = logos * logoh,
@@ -96,7 +96,7 @@ function onfinish() {
 
 function get_logo(a) {
     var b = choose_logo_idx(),
-        c = "images/sponsors/" + sps[b][1],
+        c = sps[b][1],
         d = logos * logoh,
         e = logos * logow,
         i = sps[b][5],
