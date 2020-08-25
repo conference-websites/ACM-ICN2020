@@ -26,7 +26,7 @@ ICN deals with all aspects of an information- or data-centric approach toward su
 
 ## Sponsors
 
-<!-- <div class="sponsors"> -->
-<!-- 	<a href="//www.acm.org/"><img src="images/acm.png" alt="Association for Computing Machinery" /></a> -->
-<!-- 	<a href="//www.ICN.org/"><img src="images/sig.png" alt="ACM ICN" /></a> -->
-<!-- </div> -->
+<div class="sponsors">
+	<a href="//www.acm.org/">{% asset acm.png alt="Association for Computing Machinery" %}</a>
+	<a href="//www.ICN.org/">{% asset sig.png alt="ACM SIGCOMM" %}</a>
+</div>

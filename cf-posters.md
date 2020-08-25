@@ -13,6 +13,27 @@ committees:
         affiliation: ETS
         homepage:    
 
+    - role: Demo/Poster TPC Members
+      people:
+      - name:        Hyame Alameddine
+        affiliation: Ericsson
+      - name:        Onur Ascigil
+        affiliation: UCL
+      - name:        Shihabur Chowdhury
+        affiliation: University of Waterloo
+      - name:        Halima El Biaze
+        affiliation: UQAM
+      - name:        Yuki Koizumi
+        affiliation: Osaka University
+      - name:        Spyridon Mastorakis
+        affiliation: University of Nebraska, Omaha
+      - name:        Marsa Rayani
+        affiliation: Concordia University
+      - name:        Mohammad Ali Salahuddin
+        affiliation: University of Waterloo
+      - name:        Zhiyi Zhang
+        affiliation: UCLA
+
 ---
 
 ## {{ page.title }}
