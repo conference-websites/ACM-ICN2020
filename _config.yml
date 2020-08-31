@@ -31,6 +31,11 @@ program:
   # Google spreadsheet with the conference data
   spreadsheet: 1s4v3XBYNzJWT12e1_wIo5vdePHAPmu5n-U-mHfeLAgc
 
+program-at-glance:
+  google_client_id: .travis.d/google_client_id.json
+  spreadsheet:
+    - 1pnye81Kcu3B-xL2vSOU7l2cSLvyij0LinSnnQh-6mX4
+  
 assets:
   sources:
     - _assets/css
@@ -39,6 +44,7 @@ assets:
     - _assets/js
     - _assets/bower
     - _assets/misc
+    - .sass-cache
 
   plugins:
     css:

@@ -22,14 +22,8 @@ COPY Gemfile /root/
 RUN (cd /root; bundle install)
 
 RUN apt-get update && \
-    apt-get install -y shadowsocks-libev tsocks lftp && \
+    apt-get install -y poppler-utils  texlive-extra-utils && \
     rm -rf /var/lib/apt/lists/*
 
-RUN echo set ftp:ssl-force on > /root/.lftprc && \
-    echo set ftp:ssl-protect-data yes >> /root/.lftprc && \
-    echo set ssl:verify-certificate no >> /root/.lftprc && \
-    echo set ftp:passive-mode yes >> /root/.lftprc && \
-    \
-    echo server = ss-local > /root/.tsocks.conf && \
-    echo server_port = 1080 >> /root/.tsocks.conf && \
-    echo local = 172.0.0.0/255.0.0.0 >> /root/.tsocks.conf
+RUN mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
+
