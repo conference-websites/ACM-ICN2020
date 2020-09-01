@@ -2,8 +2,30 @@
   url: /
 - name: Supporters
   url: /supporters.html
-- name: Call for Papers
-  url: /cfp.html
+- name: Program
+  url: /program.html
+# - name: Call for Papers
+#   url: /cfp.html
+- name: Tutorials
+  submenu:
+    - name: Online Learning for Data Caching and Network Service Delivery
+      url: /tutorial-online-learning.html
+    - name: Practical NDN
+      url: /tutorial-ndn.html
+    - name: Fed4FIRE
+      url: /tutorial-fed4fire.html
+- name: Venue &amp; Associated Events
+  url: /venue.html
+   # - name: Accommodations
+   #   url: /accommodations.html
+   # - name: City &amp; Travel Tips
+   #   url: /city.html
+- name: Program Committee
+  url: /tpc.html
+- name: Organizing Committee
+  url: /org-committee.html
+# - name: Accepted Papers
+#   url: /accepted-papers.html
 - name: Calls
   submenu:
     - name: "<del>Call for Papers</del>"
@@ -22,31 +44,9 @@
 #   submenu:
 #     - name: ICE-SoGo
 #       url: /workshop-ice-sogo.html
-- name: Tutorials
-  submenu:
-    - name: Online Learning for Data Caching and Network Service Delivery
-      url: /tutorial-online-learning.html
-    - name: Practical NDN
-      url: /tutorial-ndn.html
-    - name: Fed4FIRE
-      url: /tutorial-fed4fire.html
     
 # - name: Local Information
 #   submenu:
-- name: Venue &amp; Associated Events
-  url: /venue.html
-   # - name: Accommodations
-   #   url: /accommodations.html
-   # - name: City &amp; Travel Tips
-   #   url: /city.html
-- name: Program Committee
-  url: /tpc.html
-- name: Organizing Committee
-  url: /org-committee.html
-- name: Preliminary Program
-  url: /program.html
-- name: Accepted Papers
-  url: /accepted-papers.html
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
 - name: Previous Editions
