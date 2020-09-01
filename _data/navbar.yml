@@ -18,10 +18,10 @@
       url: /camera-ready.html
     - name: Call for Supporters
       url: /cf-supporters.html
-- name: Workshops
-  submenu:
-    - name: ICE-SoGo
-      url: /workshop-ice-sogo.html
+# - name: Workshops
+#   submenu:
+#     - name: ICE-SoGo
+#       url: /workshop-ice-sogo.html
 - name: Tutorials
   submenu:
     - name: Online Learning for Data Caching and Network Service Delivery
