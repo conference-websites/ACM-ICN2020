@@ -6,6 +6,8 @@
   url: /program.html
 # - name: Call for Papers
 #   url: /cfp.html
+- name: Presentation Preparation Instructions
+  url: /video.html
 - name: Tutorials
   submenu:
     - name: Online Learning for Data Caching and Network Service Delivery
