@@ -12,7 +12,7 @@ In the following you will find more details about the submission deadline, the r
 
 ### Video Submission Deadline
 
-**September 17, 2020**
+**September 18, 2020**
 
 ### Video Length and Format
 
