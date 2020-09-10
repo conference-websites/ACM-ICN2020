@@ -1,16 +1,62 @@
 ---
 layout: default
-title: Recording Preparation Instructions
+title: Instructions for Video Recording and Submission
 group: Calls
 ---
 
-## Instructions to presenters on video preparation
+## {{ page.title }}
 
-ICN2020 will not recommend a specific video capture tool but the following is expected. 
+
+As you know, ACM ICN2020 will be a virtual conference and the presenters of each paper are asked to prerecord their presentation.
+In the following you will find more details about the submission deadline, the requested video file format, name and length, and the video upload procedure.
+
+### Video Submission Deadline
+
+**September 17, 2020**
+
+### Video Length
+
+The duration of your video depends on the presentation type:
+
+- Full Paper: **20 min**
+- Short Paper: **12 min**
+- Poster Pitch: **5 min**
+- Demo: **10 min**
+
+The presentation will be followed by a live discussion slot of 10 minutes for all papers.
+_<u>Please note that the presenter must be present during the online presentation and the discussion slot.</u>_
+
+### Video Uploading
+
+Before uploading your video file, please name it using the following naming convention:
+
+**`{SID}-{presentation-order}-{presenter-last-name}.mp4`**
+
+where
+
+- **`{SID}`** is your session ID (you can look for it in the program in the website)
+- **`{presentation-order}`** is the order of your presentation in the session.
+- **`{presenter-last-name}`** is the last name of the presenter.
+
+For instance, if you are the second presenter in the third session, the name of your file would be: `4-3-PresenterLastName.mp4`.
+
+For demos the **`{SID}`** would be **"`D`"** and for poster **`{SID}`** should be **"`P`"**, e.g., `D-15-LastName.mp4` and `P-42-LastName.mp4`.
+
+To get session ID and presentation order, check the [conference program](program.html).
+
+Once your file is ready, please use this link to upload your file using a link sent to you by the chair.  If you have not received the link, contact [Mohamed Faten Zhani](mailto:mfzhani@etsmtl.ca).
+
+**<u>Videos with unacceptable video and audio quality and that do not comply with the above requirements will not be accepted.</u>**
+
+If you have any question, please contact [Mohamed Faten Zhani](mailto:mfzhani@etsmtl.ca) and/or conference chairs.
+
+### Instructions on Video Preparation
+
+ICN2020 will not recommend a specific video capture tool, presenters can use various video conferencing tools or dedicated video recording software.  The following is expected from the videos:
 
 **Video Resolution**
 
-The preferred resolution is 1080p/HD if possible but 720P is also acceptable. Do not submit 4K content.
+The preferred resolution is 1080p/HD if possible but 720P is also acceptable.  We do not require a specific bitrate, but we expect videos be of good quality (3000-10,000kb/s rate is good).  Depending on the software you are using to record/edit the video, file size can vary, 200 MB - 2 GB per 20 minute presentation is good.
 
 **Picture in picture**
 
@@ -22,7 +68,7 @@ Use a plain static background for the presenter, either the speaker’s normal o
 
 **Clothing**
 
-Plain clothing in solid color (no prints, logos, graphics etc.) tend to give better quality results. 
+Plain clothing in solid color (no prints, logos, graphics etc.) tend to give better quality results.
 
 **Videos in slide shows**
 
