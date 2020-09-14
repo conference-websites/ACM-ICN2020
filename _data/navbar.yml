@@ -4,8 +4,8 @@
   url: /supporters.html
 - name: Program
   url: /program.html
-# - name: Call for Papers
-#   url: /cfp.html
+- name: ">> Registration <<"
+  url: /registration.html
 - name: Instructions for Video Submission
   url: /video.html
 - name: Tutorials
