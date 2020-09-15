@@ -4,13 +4,17 @@ title: Registration Information
 
 registrations:
   fees:
-    - type: Author Registration (1 author/paper)
-      price: ["$150", "$150"]
-    - type: Non-Author Registration
+    - type: Full Registration
       price: ["$40", "$50"]
-    - type: Non-Author Student Registration
+    - type: Student Registration
       price: ["Free", "$20"]
 ---
+
+{% comment %}
+    - type: Author Registration (1 author/paper)
+      price: ["$150", "$150"]
+{% endcomment %}
+      
 
 ## Registration Information
 
@@ -41,7 +45,7 @@ In case of problems with registration or billing, please contact [Registration C
 
 ### A Special Note on Author Registration Policy
 
-- Each accepted full-paper/short-paper/workshop-paper/poster/demo must be accompanied by an Author Registration (not a Non-Author or Non-Author Student Registration). Each Author Registration covers 1 (one) full paper, short paper, workshop paper, poster, or demo.
+- Each accepted full-paper/short-paper/workshop-paper/poster/demo must be accompanied by a Full Registration (not a Student Registration). Each Full Registration can cover multiple full paper, short paper, workshop paper, poster, or demo.
 
 - Each accepted full-paper/short-paper/workshop-paper/poster/demo must provide pre-recording **and** <u>be virtually presented by one of its author(s) at the conference</u>. The presenting author(s) must be registered for the conference.
 
