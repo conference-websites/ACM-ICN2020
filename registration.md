@@ -41,6 +41,4 @@ In case of problems with registration or billing, please contact [Registration C
 
 - Each accepted full-paper/short-paper/workshop-paper/poster/demo must provide pre-recording **and** <u>be virtually presented by one of its author(s) at the conference</u>. The presenting author(s) must be registered for the conference.
 
-- Student registrations require uploading a scanned student ID card or equivalent verification.
-
 - Registration accepts Visa, MasterCard, American Express.
