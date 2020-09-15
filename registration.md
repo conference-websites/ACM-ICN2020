@@ -7,9 +7,9 @@ registrations:
     - type: Author Registration (1 author/paper)
       price: ["$150", "$150"]
     - type: Non-Author Registration
-      price: ["$50", "$40"]
+      price: ["$40", "$50"]
     - type: Non-Author Student Registration
-      price: ["$20", "Free"]
+      price: ["Free", "$20"]
 ---
 
 ## Registration Information
