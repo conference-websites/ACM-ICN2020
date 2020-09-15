@@ -4,7 +4,7 @@ title: Registration Information
 
 registrations:
   fees:
-    - type: Full Registration
+    - type: Conference Registration
       price: ["$40", "$50"]
 ---
 
@@ -37,7 +37,7 @@ In case of problems with registration or billing, please contact [Registration C
 
 ### A Special Note on Author Registration Policy
 
-- Each accepted full-paper/short-paper/workshop-paper/poster/demo must be accompanied by a Full Registration (not a Student Registration). Each Full Registration can cover multiple full papers, short papers, osters, or demos.
+- Each accepted full-paper/short-paper/workshop-paper/poster/demo must be accompanied by a Conference Registration. Each Full Registration can cover multiple full papers, short papers, osters, or demos.
 
 - Each accepted full-paper/short-paper/workshop-paper/poster/demo must provide pre-recording **and** <u>be virtually presented by one of its author(s) at the conference</u>. The presenting author(s) must be registered for the conference.
 
