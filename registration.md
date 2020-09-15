@@ -6,15 +6,7 @@ registrations:
   fees:
     - type: Full Registration
       price: ["$40", "$50"]
-    - type: Student Registration
-      price: ["Free", "$20"]
 ---
-
-{% comment %}
-    - type: Author Registration (1 author/paper)
-      price: ["$150", "$150"]
-{% endcomment %}
-      
 
 ## Registration Information
 
