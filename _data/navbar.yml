@@ -16,8 +16,8 @@
       url: /tutorial-ndn.html
     - name: Fed4FIRE
       url: /tutorial-fed4fire.html
-- name: Venue &amp; Associated Events
-  url: /venue.html
+# - name: Venue &amp; Associated Events
+#   url: /venue.html
    # - name: Accommodations
    #   url: /accommodations.html
    # - name: City &amp; Travel Tips
@@ -34,7 +34,7 @@
       url: /cfp.html
     - name: "<del>Call for Tutorials</del>"
       url: /cf-tutorials.html
-    - name: Call for Posters/Demos
+    - name: "<del>Call for Posters/Demos</del>"
       url: /cf-posters.html
     # - name: Submission Details
     #   url: /submission.html
