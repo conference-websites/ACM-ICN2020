@@ -6,6 +6,8 @@ registrations:
   fees:
     - type: Conference Registration
       price: ["$40", "$50"]
+    - type: Student Registration
+      price: ["Free", "$20"]
 ---
 
 ## Registration Information
@@ -32,7 +34,7 @@ registrations:
 
 [Online registration](https://www.cvent.com/d/r7qs8b){: data-role="button" class="button" }
 
-In case of problems with registration or billing, please contact [Registration Chair](mailto:KimKhoa.Nguyen@etsmtl.ca,marie@mjmontpetit.com).
+In case of problems with registration or billing, please contact [Registration Chair](mailto:icn202x@gmail.com).
 
 
 ### A Special Note on Author Registration Policy
