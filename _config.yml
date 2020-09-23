@@ -44,6 +44,7 @@ assets:
     - _assets/js
     - _assets/bower
     - _assets/misc
+    - _assets/files
     - .sass-cache
 
   plugins:
