@@ -3,40 +3,6 @@ layout: default
 title: "Half-day Tutorial: Practical NDN Application Development and Seamless Deployment"
 group: Tutorials
 
-data:
-  - type: day
-    time: TBD
-    room: TBD
-
-  - title: "Warm up: Review of NDN 101"
-    time: 20 minutes
-    type: tutorial
-
-  - title: Intro to NDN CNL API 
-    type: tutorial
-    time: 40 minutes
-
-  - title: Pub-Sub in NDN
-    type: tutorial
-    time: 30 minutes
-
-  - title: Coffee Break
-    type: break
-    time: 30 minutes
-    room: TBD
-
-  - title: Plug-n-Play Deployment of NDN Applications
-    time: 40 minutes
-    type: tutorial
-
-  - title: Illustrative App Examples
-    time: 40 minutes
-    type: tutorial
-
-  - title: "Q & A"
-    time: 40 minutes
-    type: tutorial
-
 presenters:
 - name: Alex Afanasyev
   affiliation: Florida International University
@@ -64,7 +30,23 @@ presenters:
   affiliation: UCLA/REMAP
   photo: speakers/Jeff-Burke.jpg
   bio: "
-  Jeff Burke is Professor In-Residence and Associate Dean forTechnology and Innovation at the UCLA School of Theater,Film and Television (TFT), where he has been a faculty membersince 2001. His research explores the intersections ofthe built environment, computer networks, and storytelling. Burke co-founded REMAP, a joint center of TFT and the Henry Samueli School of Engineering and Applied Science,which uses a mixture of research, artistic production, and community engagement to investigate the interrelationships among culture, community, and technology. He is Co-PI and application team lead for the Named Data Networking research project.
+  Jeff Burke is Professor In-Residence and Associate Dean forTechnology and Innovation at the UCLA School of Theater,Film and Television (TFT), where he has been a faculty member since 2001. His research explores the intersections ofthe built environment, computer networks, and storytelling. Burke co-founded REMAP, a joint center of TFT and the Henry Samueli School of Engineering and Applied Science,which uses a mixture of research, artistic production, and community engagement to investigate the interrelationships among culture, community, and technology. He is Co-PI and application team lead for the Named Data Networking research project.
+"
+
+- name: Tianyuan Yu
+  affiliation: UCLA
+  photo: speakers/Tianyuan-Yu.jpg
+  bio: "
+  Tianyuan Yu is a Ph.D. student in the Computer Science Department of UCLA, under the supervision of Prof. Lixia Zhang. His main research interests are Named Data Networking, Internet of Things and Network Security. He is also contributing to the development of the NDN software.
+"
+
+- name: Xinyu Ma
+  affiliation: UCLA
+  photo: speakers/Xinyu-Ma.jpg
+  bio: "
+Xinyu Ma is a Ph.D candidate in the Computer Science Department of UCLA, under the supervision of Prof. Lixia Zhang.
+His research focus is applications and algorithms in Named Data Networking (NDN).
+He is the main maintainer of python-ndn, an NDN client library in Python 3. He is also contributing to the development of NDN IoT.
 "
 
 - name: Lixia Zhang
@@ -89,31 +71,21 @@ Lixia Zhang is a Professor in the Computer Science Department of UCLA.  She rece
 
 ### Introduction
 
-With its built-in security and ad hoc mobility support, Named Data Networking (NDN) offers an ideal substrate to meet the needs of emerging new applications, and NDN trials should meet the least resistance at edges.
-This tutorial is to share our latest progress on a new API and plug-n-play support which address the following two obstacles in experimentation with NDN:
+With its built-in security and ad hoc mobility support, Named Data Networking (NDN) offers an ideal substrate to meet the needs of emerging new applications, and NDN trials should meet the least resistance at edges. This tutorial is to share our recent progress on new API and plug-n-play support which address the following two obstacles in experimentation with NDN:
 
-  - Limited high-level APIs to explore new application ideas, forcing users to work with low level Interest-Data exchange and reimplement basic mechanics (e.g., reliable data fetching); and
+- Limited high-level APIs to explore new application ideas, forcing users to work with low level Interest-Data exchange and reimplement basic mechanics (e.g., reliable data fetching); and
 
-  - Complexity in deploying NDN applications in local NDN environments, be it an NDN island connected to the NDN testbed, small-scale local NDN testbed, or an ad hoc NDN environment.
+- Complexity in deploying NDN applications in local NDN environments, be it an NDN island connected to the NDN testbed, small-scale local NDN testbed, or an ad hoc NDN environment.
 
-The new API is built by combining the results from existing work, which have all been published in the ICN conferences of previous years, namely consumer/producer API , Common Name Library (CNL) , and pub-sub support .
-The plug-n-play support is based on our deepened understanding about the relations between NDN configuration and reachability, and the tools needed to make the former a turn-key solution and the latter automated.
+The new API is built by combining the results from existing work, which have been published in recent ICN conferences, namely consumer/producer API, Common Name Library (CNL), and pub-sub support. The plug-n-play support is based on our deepened understanding about the relations between NDN configuration and reachability, and the tools to make the former a turn-key solution and the latter automated.
 
-In this tutorial we start with the API discussion and proceed to explain how to enable NDN plug-n-play.
-We then use illustrative examples to show how one can use these newly produced results to build new applications and perform experimentation in a simple, straightforward way.
+In this tutorial we start with a quick overview of NDN development, followed by a combination of pilot application and the API library descriptions, and wrap up with NDN plug-n-play discussions and demonstrations.
 
 ### Tutorial Description
 
-This half-day tutorial is expected to run 4 hours including a 30-minute break.
-We plan to have a moderated real-time presentations over the recorded Zoom session(s).
+This short tutorial is expected to run 3 hours including a 20-minute break. It will be mostly real-time presentations with a few pieces of recorded demonstrations.
 
-While NDN brings the concept of fetching data using names via Interest/Data packet exchange at the network level, application developers do not necessarily need to be exposed to such low-level details.
-Over the last few years, several application/developer-friendly high-level APIs have been proposed that hide data fetching specifics while providing NDN security and other functionality such as multi-party synchronization.
-In particular, developers can use consumer/producer API support  and publish-subscribe concepts to leverage NDN mechanics without directly dealing with individual Interest and Data packets.
-Moreover, given the major focus on naming in NDN, the team developed an approach to structure application development around the name hierarchy—NDN Common Name Library (CNL).
-With CNL, an application can explore available (discoverable) namespaces, subscribe to a namespace branch (i.e., subscribe to a topic or fetch a segmented object), as well as publish data.
-Therefore, the goal of this part of the tutorial is to introduce high-level concepts such as pub-sub and one API that developers can use to write NDN applications.
-We note that the consumer/producer API work, complements the CNL API by providing data transport services beneath the namespace.
+While NDN brings the concept of fetching data using names via Interest/Data packet exchange at the network level, application developers do not need to directly work with such low-level details. Over the last few years, several application/developer-friendly high-level APIs have been proposed that hide data fetching specifics while providing NDN security and other functionality such as multi-party synchronization. In particular, developers can use consumer/producer API support and publish-subscribe concepts to leverage NDN mechanics without directly dealing with individual Interest and Data packets. Moreover, given the major focus on naming in NDN, the team developed an approach to structure application development around the name strucure—NDN Common Name Library (CNL). With CNL, an application can explore available (discoverable) namespaces, subscribe to a namespace branch (i.e., subscribe to a topic) as well as publish data. Therefore, one goal of this tutorial is to introduce high-level concepts such as pub-sub and CNL API that developers can use to write NDN applications. We note that the consumer/producer API work, complements the CNL API by providing data transport services beneath the namespace.
 
 ### Preliminary Tutorial Program
 
