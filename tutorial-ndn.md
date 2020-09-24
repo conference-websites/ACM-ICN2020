@@ -49,6 +49,13 @@ His research focus is applications and algorithms in Named Data Networking (NDN)
 He is the main maintainer of python-ndn, an NDN client library in Python 3. He is also contributing to the development of NDN IoT.
 "
 
+- name: Hunter Dellaverson
+  affiliation: UCLA
+  photo: speakers/Hunter-Dellaverson.jpg
+  bio: "
+Hunter Dellaverson is a Ph.D student in the Computer Science Department of UCLA, under the supervision of Prof. Lixia Zhang. His main research interests are Named Data Networking, network security, and usable security. 
+"
+
 - name: Lixia Zhang
   photo: speakers/Lixia-Zhang.jpg
   affiliation: UCLA
