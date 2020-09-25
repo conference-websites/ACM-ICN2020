@@ -56,6 +56,13 @@ He is the main maintainer of python-ndn, an NDN client library in Python 3. He i
 Hunter Dellaverson is a Ph.D student in the Computer Science Department of UCLA, under the supervision of Prof. Lixia Zhang. His main research interests are Named Data Networking, network security, and usable security. 
 "
 
+- name: Teng Liang
+  affiliation: Peng Cheng Lab
+  photo: speakers/Teng Liang.jpg
+  bio: "
+Teng Liang is an Assistant Researcher at Peng Cheng Lab. Dr. Liang received his Ph.D. degree in computer science from the University of Arizona in 2020. His research focus is on next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include NDN forwarding, deployment and applications.
+"
+
 - name: Lixia Zhang
   photo: speakers/Lixia-Zhang.jpg
   affiliation: UCLA
