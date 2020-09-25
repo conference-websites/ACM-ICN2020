@@ -6,8 +6,8 @@
   url: /program.html
 - name: ">> Registration <<"
   url: /registration.html
-- name: Instructions for Video Submission
-  url: /video.html
+- name: Event Information
+  url: /event.html
 - name: Tutorials
   submenu:
     - name: Online Learning for Data Caching and Network Service Delivery
@@ -42,6 +42,8 @@
       url: /camera-ready.html
     - name: Call for Supporters
       url: /cf-supporters.html
+    - name: Instructions for Video Submission
+      url: /video.html
 # - name: Workshops
 #   submenu:
 #     - name: ICE-SoGo
