@@ -58,7 +58,7 @@ Hunter Dellaverson is a Ph.D student in the Computer Science Department of UCLA,
 
 - name: Teng Liang
   affiliation: Peng Cheng Lab
-  photo: speakers/Teng Liang.jpg
+  photo: speakers/Teng-Liang.jpg
   bio: "
 Teng Liang is an Assistant Researcher at Peng Cheng Lab. Dr. Liang received his Ph.D. degree in computer science from the University of Arizona in 2020. His research focus is on next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include NDN forwarding, deployment and applications.
 "
