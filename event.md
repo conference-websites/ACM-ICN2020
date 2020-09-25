@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Virtual Event Instructions
+title: Online Event Information
 
 ---
 

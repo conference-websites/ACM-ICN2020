@@ -6,7 +6,7 @@
   url: /program.html
 - name: ">> Registration <<"
   url: /registration.html
-- name: Event Information
+- name: Online Event Information
   url: /event.html
 - name: Tutorials
   submenu:
