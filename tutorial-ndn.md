@@ -78,10 +78,11 @@ Lixia Zhang is a Professor in the Computer Science Department of UCLA.  She rece
 * TOC
 {:toc}
 
-### Presenters
+### Preliminary Tutorial Program
 
-{% assign expand=true %}
-{% include presenters.html presenters=page.presenters %}
+{% assign abstractTitle="" %}
+{% assign expanded=true %}
+{% include program-online.html type="tutorial-ndn" %}
 
 ### Introduction
 
@@ -101,8 +102,8 @@ This short tutorial is expected to run 3 hours including a 20-minute break. It w
 
 While NDN brings the concept of fetching data using names via Interest/Data packet exchange at the network level, application developers do not need to directly work with such low-level details. Over the last few years, several application/developer-friendly high-level APIs have been proposed that hide data fetching specifics while providing NDN security and other functionality such as multi-party synchronization. In particular, developers can use consumer/producer API support and publish-subscribe concepts to leverage NDN mechanics without directly dealing with individual Interest and Data packets. Moreover, given the major focus on naming in NDN, the team developed an approach to structure application development around the name strucure—NDN Common Name Library (CNL). With CNL, an application can explore available (discoverable) namespaces, subscribe to a namespace branch (i.e., subscribe to a topic) as well as publish data. Therefore, one goal of this tutorial is to introduce high-level concepts such as pub-sub and CNL API that developers can use to write NDN applications. We note that the consumer/producer API work, complements the CNL API by providing data transport services beneath the namespace.
 
-### Preliminary Tutorial Program
+### Presenters
 
-{% assign abstractTitle="" %}
-{% assign expanded=true %}
-{% include program-online.html type="tutorial-ndn" %}
+{% assign expand=true %}
+{% include presenters.html presenters=page.presenters %}
+
