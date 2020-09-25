@@ -36,6 +36,12 @@ presenters:
 
 ## {{ page.title }}
 
+### Preliminary Tutorial Program (3 Hours)
+
+{% assign abstractTitle="" %}
+{% assign expanded=true %}
+{% include program-online.html type="tutorial-online" %}
+
 ### Introduction and Tutorial Description
 
 Storage resources and caching techniques permeate almost every facet of wired and wireless networks.
@@ -50,9 +56,3 @@ We will present, in a novel and unified fashion, fundamental concepts of popular
 
 {% assign expand=true %}
 {% include presenters.html presenters=page.presenters %}
-
-### Preliminary Tutorial Program (3 Hours)
-
-{% assign abstractTitle="" %}
-{% assign expanded=true %}
-{% include program-online.html type="tutorial-online" %}
