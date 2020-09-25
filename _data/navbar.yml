@@ -10,11 +10,11 @@
   url: /event.html
 - name: Tutorials
   submenu:
-    - name: Online Learning for Data Caching and Network Service Delivery
+    - name: "T1: Online Learning for Data Caching and Network Service Delivery"
       url: /tutorial-online-learning.html
-    - name: Practical NDN
+    - name: "T2: Practical NDN"
       url: /tutorial-ndn.html
-    - name: Fed4FIRE
+    - name: "T3: Fed4FIRE"
       url: /tutorial-fed4fire.html
 # - name: Venue &amp; Associated Events
 #   url: /venue.html
