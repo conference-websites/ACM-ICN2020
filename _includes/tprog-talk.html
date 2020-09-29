@@ -37,7 +37,11 @@
           {% endif %}
           {% if has_slides %}
             <div class="button-paper">
-              <a href="{{ keynote.slides }}" onclick="window.location='{{ keynote.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+                {% if keynote.slides contains "http://" or keynote.slides contains "https://" %}
+                <a href="{{ keynote.slides }}" onclick="window.location='{{ keynote.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+                {% else %}
+                <a href="{% asset "{{ keynote.slides }}" @path %}" onclick="window.location='{% asset "{{ keynote.slides }}" @path %}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+                {% endif %}
             </div>
           {% endif %}
           {% if has_video %}
