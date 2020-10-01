@@ -1,7 +1,7 @@
 - date: October 1, 2020
-  news: '<a data-ajax="false" href="awards.html">Best Paper Award winner</a> is announced'
+  news: '<a href="awards.html">Best Paper Award winner</a> is announced'
 - date: October 1, 2020
-  news: '<a href="ICN-2021.pdf">ACM ICN 2021 in Paris!</a>'
+  news: '<a data-ajax="false" href="ICN-2021.pdf">ACM ICN 2021 in Paris!</a>'
 - date: September 25, 2020
   news: '<a href="event.html">Online event information</a> is posted'
 - date: September 15, 2020
