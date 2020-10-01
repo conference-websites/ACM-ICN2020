@@ -1,7 +1,8 @@
 {% assign abstract_label = 'Citation' %}
 
+<div id="program-program" class="program-program">
 {% for award in include.awards %}
-  <ul class="program" data-role="listview" data-inset="true" data-theme="d" data-content-theme="a" class="tbl">
+  <ul class="program" data-role="listview" data-filter="false" data-inset="true" data-theme="d" data-dividertheme="a">
     <li data-role="list-divider">
       {% if award.link %}<a href="{{ award.link }}" target="_blank" style="color:#F9E90C">{% endif %}
         {{ award.type }}
@@ -26,3 +27,4 @@
   </ul>
 {% endfor %}
 
+</div>
