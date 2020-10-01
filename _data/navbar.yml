@@ -4,10 +4,8 @@
   url: /supporters.html
 - name: Program
   url: /program.html
-- name: ">> Registration <<"
-  url: /registration.html
-- name: Online Event Information
-  url: /event.html
+- name: Awards
+  url: /awards.html
 - name: Tutorials
   submenu:
     - name: "T1: Online Learning for Data Caching and Network Service Delivery"
@@ -28,6 +26,10 @@
   url: /org-committee.html
 # - name: Accepted Papers
 #   url: /accepted-papers.html
+# - name: "Registration"
+#   url: /registration.html
+- name: Online Event Information
+  url: /event.html
 - name: Calls
   submenu:
     - name: "<del>Call for Papers</del>"
