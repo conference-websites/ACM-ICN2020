@@ -397,6 +397,24 @@ table tr {
     text-decoration: none;
 }
 
+.content-primary .program .button-session {
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: $site-colors-highlightB;
+    text-align: center;
+    width: auto;
+    margin: 0 0 6px 6px;
+    display: inline-block;
+}
+
+.content-primary .program .button-session a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+
 .content-primary .program hr.keynote-divider {
     border: 0;
     height: 0;
@@ -619,6 +637,11 @@ a.button{
 
 }
 
+.ui-program .aside {
+    margin: 0.5em 0 0.5em 0;
+    text-align: right;
+}
+
 /* Layout rules
 -----------------------------------------------------------------------------------------------------------*/
 
@@ -683,6 +706,15 @@ a.button{
         margin: 0;
         text-align: center;
     }
+
+  .ui-program .ui-block-a,
+  .ui-program .ui-block-b,
+  .ui-program .ui-block-c,
+  .ui-program .ui-block-d,
+  .ui-program .ui-block-e {
+    width: 100%;
+    float:none;
+  }
 }
 
 /* Bigger screens */
@@ -698,6 +730,10 @@ a.button{
         margin-right: 3%;
         padding-right: 3%;
     }
+
+  .ui-program .ui-block-a { width: 74.95%; }
+  .ui-program .ui-block-b { width: 24.925%; }
+  .ui-program .ui-block-a { clear: left; }
 }
 
 /* Printing */
