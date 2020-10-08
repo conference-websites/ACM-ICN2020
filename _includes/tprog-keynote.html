@@ -7,7 +7,7 @@
   {% if keynote.abstract and keynote.abstract != "" %}{% assign has_abstract = true %}{% else %}{% assign has_abstract = nil %}{% endif %}
   {% if keynote.link   and keynote.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
   {% if keynote.slides and keynote.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
-  {% if paper.video    and paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+  {% if keynote.video    and keynote.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
 
   {% comment %}<!-- make space for the button(s) -->{% endcomment %}
   {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
